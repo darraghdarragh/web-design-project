@@ -605,7 +605,3 @@ footer {
   width: 100%;
   max-width: 500px;   /* increase size */
 }
-
-h1, h2, h3, h4 {
-  color: #3b5249 !important;
-}
