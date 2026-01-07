@@ -16,7 +16,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@8a24039354ee91000cb948cb4a1dbdf1a1b94a3c # v4.3.4
         with:
           server: ftp.absolutehealing.ie
-          username: ${{ secrets.absolutehealing_ftp_username }}
-          password: ${{ secrets.absolutehealing_ftp_password }}
+          username: ${{ secrets.absolute_ftp_username }}
+          password: ${{ secrets.absolute_ftp_password }}
           local-dir: public_html/
           server-dir: public_html/
