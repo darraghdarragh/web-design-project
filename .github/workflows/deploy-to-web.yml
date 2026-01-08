@@ -18,5 +18,5 @@ jobs:
           server: ftp.absolutehealing.ie
           username: ${{ secrets.absolute_ftp_username }}
           password: ${{ secrets.absolute_ftp_password }}
-          local-dir: public_html/
+          local-dir: ./
           server-dir: public_html/
